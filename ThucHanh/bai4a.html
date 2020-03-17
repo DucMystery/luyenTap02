@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 4a</title>
+</head>
+<body>
+<script>
+    let str=prompt("Moi ban nhap vao chuoi:");
+    let dem=1;
+    for (let i=0;i<str.length;i++){
+        if (str[i]===' '){
+            continue;
+        }else
+            break;
+    }
+    for (let j=0;j<str.length-1;j++){
+        if (str[j]===' '&& str[j+1]!==' '){
+            dem++;
+        }
+    }
+    document.write(dem);
+
+</script>
+</body>
+</html>

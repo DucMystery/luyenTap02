@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+<script>
+    let array=[];
+    array.length=5;
+    let number=0;
+    for (let i=0;i<array.length;i++){
+        array[i]=prompt("Moi ban nhap vao phan tu cua mang:");
+    }
+   for (let j=0;j<array.length;j++){
+       if (array[j]>='0'&& array[j]<='9'){
+           number++;
+       }
+   }
+   document.write(number);
+</script>
+</body>
+</html>

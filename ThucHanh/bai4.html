@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 4</title>
+</head>
+<body>
+<script>
+    let array=[];
+    array.length=5;
+    for (let i=0;i<array.length;i++){
+        array[i]=prompt("Moi ban nhap vao ptu cua mang:");
+    }
+    let str=0;
+    for (let j=0;j<array.length;j++){
+        if (array[j]>='a'&& array[j]<='z'|| array[j]>='A' && array[j]<="Z"){
+            str++;
+        }
+    }
+    document.write(str);
+</script>
+</body>
+</html>
